@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/CV-Website",
   siteMetadata: {
     title: `Dylan Kumar`,
     description: `Dylan Kumar CV website`,

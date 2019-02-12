@@ -1,0 +1,107 @@
+.center-header {
+    text-align: center;
+}
+
+.cc {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{ 
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.soil-img {
+    max-width: 200px;
+    width: 80%;
+    height: auto;
+}
+
+.full-width-img {
+    width: 100%;
+}
+
+a {
+  color:#0645AD;  
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 72.94%;
+}
+
+.column-1 {
+    float: left;
+    width: 27.06%;
+}
+
+.column-2 {
+    float: left;
+    width: 50%;
+}
+
+.column-4 {
+    float: left;
+    width: 25%;
+}
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.img-inline {
+    display: flex;
+    /* height: auto; */
+    /* width: auto; */
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.dataland-img {
+    
+    /* max-height: 400px; */
+    /* width: auto; */
+    /* flex-shrink: 0; */
+
+}
+
+.skills-img {
+    /* height: 200px; */
+    /* width: auto; */
+}
+
+.skills-img-sm {
+    height: 80px;
+    width: auto;
+}
+
+.menu-link {
+    color: white; 
+}
+
+.menu-link:hover { 
+    color: gray;
+    -webkit-animation: mymove 0.3s both;
+	animation: mymove 0.3s both;
+}
+
+@keyframes mymove {
+    0%   {color: white; }
+    100% {color: gray; }
+}
